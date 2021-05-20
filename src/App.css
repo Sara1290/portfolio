@@ -1,8 +1,122 @@
 .App {
   text-align: center;
+  background: #F3F3CD;
+  height: 100vh;
+
 }
 
-.App-logo {
+#face-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  z-index: 10;
+  position: relative;
+  bottom: 100px;
+}
+
+
+/* kind of lines around header image*/
+#red-line {
+  height: 30px;
+  width: 250px;
+  background: #FF0404;
+  transform: rotateY(0deg) rotate(-45deg);
+  position: relative;
+  left: 5px;
+  /* right: 55px; */
+  border-radius: 20px;
+  /* z-index: ; */
+}
+
+#blue-line {
+  height: 30px;
+  width: 250px;
+  background: #7BC8EA;
+  transform: rotateY(0deg) rotate(-45deg);
+  position: relative;
+  top: 40px;
+  /* left: 5px; */
+  border-radius: 20px;
+}
+
+#green-line {
+  height: 30px;
+  width: 250px;
+  background: #0A785E;
+  transform: rotateY(0deg) rotate(-45deg);
+  position: relative;
+  left: 80px;
+  /* right: 175px; */
+  border-radius: 20px;
+}
+
+
+#yellow-line {
+  height: 30px;
+  width: 275px;
+  background: #F8C81E;
+  transform: rotateY(0deg) rotate(-45deg);
+  position: relative;
+  left: 75px;
+  top: 30px;
+  right: 40px;
+  border-radius: 20px;
+}
+
+/*sections with links*/
+#red-section {
+  height: 50px;
+  width: 200px;
+  background: #FF0404;
+  position: relative;
+  left: 175px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+#blue-section {
+  height: 50px;
+  width: 200px;
+  background: #7BC8EA;
+  position: relative;
+  left: 175px;
+  top: 20px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+#green-section {
+  height: 50px;
+  width: 200px;
+  background: #0A785E;
+  position: relative;
+  left: 175px;
+  top: 40px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+
+#yellow-section {
+  height: 50px;
+  width: 200px;
+  background: #F8C81E;
+  position: relative;
+  left: 175px;
+  top: 60px;
+  border-radius: 30px 0px 0px 30px;
+}
+
+/* #red-mini-section {
+  height: 50px;
+  width: 100px;
+  background: #FF0404;
+  position: relative;
+  left: 68px;
+  bottom: 32px;
+  border-radius: 30px;
+  transform: rotateY(0deg) rotate(-30deg);
+
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +149,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
