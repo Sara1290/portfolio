@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  background: #F3F3CD;
+  background: rgb(253, 255, 224);
   height: 100vh;
-
 }
 
 #face-img {
@@ -23,9 +22,7 @@
   transform: rotateY(0deg) rotate(-45deg);
   position: relative;
   left: 5px;
-  /* right: 55px; */
   border-radius: 20px;
-  /* z-index: ; */
 }
 
 #blue-line {
@@ -35,7 +32,6 @@
   transform: rotateY(0deg) rotate(-45deg);
   position: relative;
   top: 40px;
-  /* left: 5px; */
   border-radius: 20px;
 }
 
@@ -46,7 +42,6 @@
   transform: rotateY(0deg) rotate(-45deg);
   position: relative;
   left: 80px;
-  /* right: 175px; */
   border-radius: 20px;
 }
 
@@ -63,6 +58,18 @@
   border-radius: 20px;
 }
 
+.name-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 75px;
+}
+
+.section-container {
+  position: relative;
+  top: 150px;
+}
+
 /*sections with links*/
 #red-section {
   height: 50px;
@@ -71,6 +78,7 @@
   position: relative;
   left: 175px;
   border-radius: 30px 0px 0px 30px;
+  bottom: 35px;
 }
 
 #blue-section {
@@ -79,7 +87,7 @@
   background: #7BC8EA;
   position: relative;
   left: 175px;
-  top: 20px;
+  /* top: 5px; */
   border-radius: 30px 0px 0px 30px;
 }
 
@@ -89,7 +97,7 @@
   background: #0A785E;
   position: relative;
   left: 175px;
-  top: 40px;
+  top: 30px;
   border-radius: 30px 0px 0px 30px;
 }
 

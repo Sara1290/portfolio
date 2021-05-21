@@ -9,15 +9,24 @@ function App() {
       <div id="green-line"></div>
       <div id="yellow-line"></div>
       <img alt="" id="face-img" src={face} />
-      <h1> Sara Reed </h1>
-      <p> Web Developer</p>
-      <div id="red-section"></div>
-      <div id="red-mini-section"></div>
-
-      <div id="blue-section"></div>
-      <div id="green-section"></div>
-      <div id="yellow-section"></div>
-
+      <div className="name-title">
+        <h1> Sara Reed </h1>
+        <p> Web Developer</p>
+      </div>
+      <div className="section-container">
+        <section id="red-section">
+          <p>About</p>
+        </section>
+        <section id="blue-section">
+        <p>Skills</p>
+        </section>
+        <section id="green-section">
+        <p>Projects</p>
+        </section>
+        <section id="yellow-section">
+        <p>Contact</p>
+        </section>
+      </div>
     </div>
   );
 }
