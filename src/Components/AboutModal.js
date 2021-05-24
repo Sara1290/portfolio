@@ -1,4 +1,5 @@
 import React from 'react';
+import './AboutModal.css'
 
 const AboutModal = ({showModal, setShowModal}) => {
   // const modalRef = useRef();

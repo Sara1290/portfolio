@@ -78,10 +78,11 @@
 }
 
 /*sections with links*/
-.section-container {
+/* .section-container {
   position: relative;
   top: 150px;
-}
+  width: 45vw;
+} */
 .section-button {
   background: #FF0404;
   border: none;
@@ -94,8 +95,9 @@
   background: #FF0404;
   position: relative;
   left: 175px;
+  top: 100px;
   border-radius: 30px 0px 0px 30px;
-  bottom: 35px;
+  /* bottom: 35px; */
 }
 #blue-section {
   height: 50px;
@@ -103,7 +105,7 @@
   background: #7BC8EA;
   position: relative;
   left: 175px;
-  /* top: 5px; */
+  top: 125px;
   border-radius: 30px 0px 0px 30px;
 }
 
@@ -113,7 +115,7 @@
   background: #0A785E;
   position: relative;
   left: 175px;
-  top: 30px;
+  top: 150px;
   border-radius: 30px 0px 0px 30px;
 }
 
@@ -123,6 +125,6 @@
   background: #F8C81E;
   position: relative;
   left: 175px;
-  top: 60px;
+  top: 175px;
   border-radius: 30px 0px 0px 30px;
 }

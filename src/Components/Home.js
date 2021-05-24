@@ -28,41 +28,11 @@ const Home = () => {
         <h1> Sara Reed </h1>
         <p> Web Developer</p>
       </div>
-      <div className="section-container">
-
-
-
-
-
-
-
+      {/* <div className="section-container"> */}
         <section id="red-section">
           <button className="section-button" onClick={openModal}>About</button>
           <AboutModal showModal={showModal} setShowModal={setShowModal} />
         </section>
-        
-        
-        
-        
-        
-        
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
         <section id="blue-section">
         <p>Skills</p>
         </section>
@@ -72,7 +42,7 @@ const Home = () => {
         <section id="yellow-section">
         <p>Contact</p>
         </section>
-      </div>
+      {/* </div> */}
     </div>
   );
 
