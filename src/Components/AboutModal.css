@@ -8,4 +8,31 @@
   width: 85vw;
   height: 40vh;
   position: absolute;
-}
+};
+
+.skills-body {
+  background: #7BC8EA;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  width: 85vw;
+  height: 40vh;
+  position: absolute;
+};
+
+.projects-body {
+  background: #08707E;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  width: 85vw;
+  height: 40vh;
+  position: absolute;
+};
+
+.contact-body {
+  background: #F8C81E;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  width: 85vw;
+  height: 40vh;
+  position: absolute;
+};
