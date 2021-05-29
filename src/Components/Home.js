@@ -19,10 +19,10 @@ const Home = () => {
 
   return (
     <div className="home-body" ref={modalRef} onClick={closeModal}>
-      <div id="red-line"></div>
+      {/* <div id="red-line"></div>
       <div id="blue-line"></div>
       <div id="green-line"></div>
-      <div id="yellow-line"></div>
+      <div id="yellow-line"></div> */}
       <img alt="" id="face-img" src={face} />
       <div className="name-title">
         <h1> Sara Reed </h1>

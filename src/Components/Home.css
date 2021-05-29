@@ -14,12 +14,12 @@
   border-radius: 50%;
   z-index: 10;
   position: relative;
-  bottom: 100px;
+  /* bottom: 100px; */
 }
 
 
 /* kind of lines around header image*/
-#red-line {
+/* #red-line {
   height: 30px;
   width: 250px;
   background: #FF0404;
@@ -60,13 +60,13 @@
   top: 30px;
   right: 40px;
   border-radius: 20px;
-}
+} */
 
 .name-title {
   display: flex;
   flex-direction: column;
   position: relative;
-  bottom: 75px;
+  /* bottom: 75px; */
 }
 .name-title > h1 {
   font-family: 'Righteous', cursive;
@@ -84,7 +84,7 @@
   width: 45vw;
 } */
 .section-button {
-  background: #FF0404;
+  background: #6699C8;
   border: none;
   font-size: 1.4em;
   font-family: 'Lato', sans-serif;
@@ -92,7 +92,7 @@
 #red-section {
   height: 50px;
   width: 200px;
-  background: #FF0404;
+  background: #6699C8;
   position: relative;
   left: 175px;
   top: 100px;
@@ -104,15 +104,15 @@
   width: 200px;
   background: #7BC8EA;
   position: relative;
-  left: 175px;
+  /* left: 175px; */
   top: 125px;
-  border-radius: 30px 0px 0px 30px;
+  border-radius: 0 30px 30px 0;
 }
 
 #green-section {
   height: 50px;
   width: 200px;
-  background: #0A785E;
+  background: #08707E;
   position: relative;
   left: 175px;
   top: 150px;
@@ -124,7 +124,7 @@
   width: 200px;
   background: #F8C81E;
   position: relative;
-  left: 175px;
+  /* left: 175px; */
   top: 175px;
-  border-radius: 30px 0px 0px 30px;
+  border-radius: 0 30px 30px 0;
 }

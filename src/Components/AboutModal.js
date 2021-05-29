@@ -1,14 +1,19 @@
-import React from 'react';
+import React, {useCallback, useEffect} from 'react';
 import './AboutModal.css'
 
 const AboutModal = ({showModal, setShowModal}) => {
-  // const modalRef = useRef();
 
-  // const closeModal = e => {
-  //   if(modalRef.current === e.target) {
-  //     setShowModal(false)
-  //   }
-  // };
+  const keyPress = useCallback(e => {
+    if(e.key === 'Escape' && showModal) {
+      setShowModal(false)
+    }
+  }, [setShowModal, showModal])
+
+  useEffect(() => {
+    document.addEventListener('keydown', keyPress);
+    return () => document.removeEventListener('keydown', keyPress)
+  }, [keyPress])
+
 
   return (
     <div>
