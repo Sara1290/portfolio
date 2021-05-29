@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.skills-body {
+  background: #7BC8EA;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  width: 85vw;
+  height: 40vh;
+  position: absolute;
+}

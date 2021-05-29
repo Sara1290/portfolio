@@ -78,18 +78,32 @@
 }
 
 /*sections with links*/
-/* .section-container {
-  position: relative;
-  top: 150px;
-  width: 45vw;
-} */
-.section-button {
+
+.about-button {
   background: #6699C8;
   border: none;
   font-size: 1.4em;
   font-family: 'Lato', sans-serif;
 }
-#red-section {
+.skills-button {
+  background: #7bc8ea;
+  border: none;
+  font-size: 1.4em;
+  font-family: 'Lato', sans-serif;
+}
+.projects-button {
+  background: #08707E;
+  border: none;
+  font-size: 1.4em;
+  font-family: 'Lato', sans-serif;
+}
+.contact-button {
+  background: #F8C81E;
+  border: none;
+  font-size: 1.4em;
+  font-family: 'Lato', sans-serif;
+}
+#dusty-blue-section {
   height: 50px;
   width: 200px;
   background: #6699C8;
@@ -109,7 +123,7 @@
   border-radius: 0 30px 30px 0;
 }
 
-#green-section {
+#teal-section {
   height: 50px;
   width: 200px;
   background: #08707E;

@@ -1,13 +1,13 @@
 import React, {useCallback, useEffect} from 'react';
 import './AboutModal.css'
 
-const AboutModal = ({showModal, setShowModal}) => {
+const AboutModal = ({showAboutModal, setShowAboutModal}) => {
 
   const keyPress = useCallback(e => {
-    if(e.key === 'Escape' && showModal) {
-      setShowModal(false)
+    if(e.key === 'Escape' && showAboutModal) {
+      setShowAboutModal(false)
     }
-  }, [setShowModal, showModal])
+  }, [setShowAboutModal, showAboutModal])
 
   useEffect(() => {
     document.addEventListener('keydown', keyPress);
@@ -17,10 +17,10 @@ const AboutModal = ({showModal, setShowModal}) => {
 
   return (
     <div>
-      {showModal 
+      {showAboutModal 
       ? (<div className='about-body'>
-        <button aria-label="CloseModal" onClick={() => setShowModal(prev => !prev)}>X</button>
-          <h1>Hello! My name is Sara I'm a Utah based web developer!</h1>
+        <button aria-label="CloseModal" onClick={() => setShowAboutModal(prev => !prev)}>X</button>
+          <h1>Hi there! My name is Sara I'm a Utah based web developer!</h1>
           <p>I love camping, hiking, playing piano, baking, wreath making, and
             any sort of arts and crafts. I got into writing code after I left my career as a pastry
             chef. I started trying it out online, and really just enjoyed it and dived right
