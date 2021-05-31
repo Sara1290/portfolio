@@ -10,7 +10,7 @@ const Home = () => {
   const [showAboutModal, setShowAboutModal] = useState(false);
   const [showSkillsModal, setShowSkillsModal] = useState(false);
   const [showProjectsModal, setShowProjectsModal] = useState(false);
-  const [showContactModal, setShowContanctModal] = useState(false);
+  const [showContactModal, setShowContactModal] = useState(false);
   const modalRef = useRef();
 
   const openAboutModal = () => {
@@ -26,7 +26,7 @@ const Home = () => {
   };
 
   const openContactModal = () => {
-    setShowContanctModal(prev => !prev)
+    setShowContactModal(prev => !prev)
   };
 
   const closeModal = e => {
@@ -34,23 +34,23 @@ const Home = () => {
       setShowSkillsModal(false)
       setShowAboutModal(false)
       setShowProjectsModal(false)
-      setShowContanctModal(false)
+      setShowContactModal(false)
     }
   };
 
 
   return (
-    <div className="home-body" ref={modalRef} onClick={closeModal}>
-      {/* <div id="red-line"></div>
+    <div className='home-body' ref={modalRef} onClick={closeModal}>
+      {/* <div id="dusty-blue-line"></div>
       <div id="blue-line"></div>
-      <div id="green-line"></div>
+      <div id="teal-line"></div>
       <div id="yellow-line"></div> */}
       <img alt="" id="face-img" src={face} />
       <div className="name-title">
         <h1> Sara Reed </h1>
         <p> I write code.</p>
       </div>
-      {/* <div className="section-container"> */}
+      <div className="section-container">
         <section id="dusty-blue-section">
           <button className="about-button" onClick={openAboutModal}>About</button>
           <AboutModal showAboutModal={showAboutModal} setShowAboutModal={setShowAboutModal} />
@@ -68,10 +68,10 @@ const Home = () => {
 
         <section id="yellow-section">
         <button className="contact-button" onClick={openContactModal}>Contact</button>
-          <ContactModal showContactModal={showContactModal} setShowContanctModal={setShowContanctModal} />
+          <ContactModal showContactModal={showContactModal} setShowContactModal={setShowContactModal} />
         </section>
           
-      {/* </div> */}
+      </div>
     </div>
   );
 

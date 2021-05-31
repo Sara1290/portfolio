@@ -19,7 +19,7 @@ const ProjectsModal = ({showProjectsModal, setShowProjectsModal}) => {
     <div>
       {showProjectsModal 
       ? (<div className='projects-body'>
-        <button aria-label="CloseModal" onClick={() => setShowProjectsModal(prev => !prev)}>X</button>
+        <button aria-label="CloseModal" className="x-button" onClick={() => setShowProjectsModal(prev => !prev)}>X</button>
           <h1>What I've been up to</h1>
           <p>links here to projects  
           </p>

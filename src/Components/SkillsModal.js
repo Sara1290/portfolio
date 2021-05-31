@@ -18,7 +18,7 @@ const SkillsModal = ({showSkillsModal, setShowSkillsModal}) => {
     <div>
       {showSkillsModal 
       ? (<div className='skills-body'>
-        <button aria-label="CloseModal" onClick={() => setShowSkillsModal(prev => !prev)}>X</button>
+        <button aria-label="CloseModal" className="x-button" onClick={() => setShowSkillsModal(prev => !prev)}>X</button>
           <h1>What I know</h1>
           <p> JavaScript, React, React with Hooks, React with Redux, PostgreSQL, Node.js, CSS, SASS, API's and more!
           </p>

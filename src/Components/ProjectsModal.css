@@ -2,10 +2,14 @@
 
 
 .projects-body {
-  background: #08707E;
+  background: #08707eaf;
+  /* background: black; */
   color: white;
   font-family: 'Lato', sans-serif;
   width: 85vw;
-  height: 40vh;
-  position: absolute;
+  height: 20vh;
+  border-radius: 15px;
+  position: fixed;
+  left: 7vw;
+  bottom: 40vh;
 }
