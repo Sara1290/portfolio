@@ -4,6 +4,8 @@ import AboutModal from './AboutModal';
 import SkillsModal from './SkillsModal'
 import ProjectsModal from './ProjectsModal';
 import ContactModal from './ContactModal';
+import AlbionEdited from '../assets/AlbionEdited.JPG'
+import MQXF8593 from '../assets/MQXF8593.JPG'
 import '../../src/Components/Home.css'
 
 const Home = () => {
@@ -45,6 +47,7 @@ const Home = () => {
       <div id="blue-line"></div>
       <div id="teal-line"></div>
       <div id="yellow-line"></div> */}
+      {/* <img src={AlbionEdited} alt="" id='background'/> */}
       <img alt="" id="face-img" src={face} />
       <div className="name-title">
         <h1> Sara Reed </h1>
