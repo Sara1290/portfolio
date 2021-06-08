@@ -19,8 +19,9 @@ const SkillsModal = ({showSkillsModal, setShowSkillsModal}) => {
       {showSkillsModal 
       ? (<div className='skills-body'>
         <button aria-label="CloseModal" className="x-button" onClick={() => setShowSkillsModal(prev => !prev)}>X</button>
-          <h1>What I know</h1>
+          <p>What I know</p>
           <p> JavaScript, React, React with Hooks, React with Redux, PostgreSQL, Node.js, CSS, SASS, API's and more!
+          <section id="line-one"></section>
           </p>
         </div>)
     : null}

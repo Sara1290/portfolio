@@ -5,7 +5,7 @@ import SkillsModal from './SkillsModal'
 import ProjectsModal from './ProjectsModal';
 import ContactModal from './ContactModal';
 import AlbionEdited from '../assets/AlbionEdited.JPG'
-import MQXF8593 from '../assets/MQXF8593.JPG'
+// import canyonlands from '../assets/canyonlands.jpg'
 import '../../src/Components/Home.css'
 
 const Home = () => {
@@ -43,33 +43,30 @@ const Home = () => {
 
   return (
     <div className='home-body' ref={modalRef} onClick={closeModal}>
-      {/* <div id="dusty-blue-line"></div>
-      <div id="blue-line"></div>
-      <div id="teal-line"></div>
-      <div id="yellow-line"></div> */}
-      {/* <img src={AlbionEdited} alt="" id='background'/> */}
+      <img src={AlbionEdited} alt="" id='background'className='home-body'ref={modalRef} onClick={closeModal}/>
+      {/* <img src={canyonlands} alt="" id='background' className='home-body'ref={modalRef} onClick={closeModal}/> */}
       <img alt="" id="face-img" src={face} />
       <div className="name-title">
         <h1> Sara Reed </h1>
         <p> I write code.</p>
       </div>
       <div className="section-container">
-        <section id="dusty-blue-section">
+        <section id="about-section">
           <button className="about-button" onClick={openAboutModal}>About</button>
           <AboutModal showAboutModal={showAboutModal} setShowAboutModal={setShowAboutModal} />
         </section>
 
-        <section id="blue-section">
+        <section id="skills-section">
         <button className="skills-button" onClick={openSkillsModal}>Skills</button>
           <SkillsModal showSkillsModal={showSkillsModal} setShowSkillsModal={setShowSkillsModal} />
         </section>
 
-        <section id="teal-section">
+        <section id="projects-section">
         <button className="projects-button" onClick={openProjectsModal}>Projects</button>
           <ProjectsModal showProjectsModal={showProjectsModal} setShowProjectsModal={setShowProjectsModal} />
         </section>
 
-        <section id="yellow-section">
+        <section id="contact-section">
         <button className="contact-button" onClick={openContactModal}>Contact</button>
           <ContactModal showContactModal={showContactModal} setShowContactModal={setShowContactModal} />
         </section>

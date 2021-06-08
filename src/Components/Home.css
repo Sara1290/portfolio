@@ -3,7 +3,7 @@
 
 .home-body {
   text-align: center;
-  background-image: linear-gradient(-45deg, #6699c8, #7BC8EA, #F8C81E); 
+  /* background-image: linear-gradient(-45deg, #6699c8, #7BC8EA, #F8C81E);  */
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -11,11 +11,11 @@
   align-items: center;
   flex-direction: column;
 }
-.background {
+#background {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .section-container {
@@ -39,45 +39,6 @@
   bottom: 65px;
 }
 
-/* design divs around header image*/
-/* #dusty-blue-line {
-  height: 30px;
-  width: 250px;
-  background: #6699C8;
-  transform: rotateY(0deg) rotate(-45deg);
-  position: relative;
-  left: 5px;
-  border-radius: 20px;
-}
-#blue-line {
-  height: 30px;
-  width: 250px;
-  background: #7BC8EA;
-  transform: rotateY(0deg) rotate(-45deg);
-  position: relative;
-  top: 40px;
-  border-radius: 20px;
-}
-#teal-line {
-  height: 30px;
-  width: 250px;
-  background: #08707E;
-  transform: rotateY(0deg) rotate(-45deg);
-  position: relative;
-  left: 80px;
-  border-radius: 20px;
-}
-#yellow-line {
-  height: 30px;
-  width: 275px;
-  background: #F8C81E;
-  transform: rotateY(0deg) rotate(-45deg);
-  position: relative;
-  left: 75px;
-  top: 30px;
-  right: 40px;
-  border-radius: 20px;
-} */
 /* header info */
 .name-title {
   display: flex;
@@ -131,7 +92,7 @@
   font-size: 20px;
 }
 /*info sections */
-#dusty-blue-section {
+#about-section {
   height: 50px;
   width: 200px;
   /* background: #6699C8; */
@@ -139,7 +100,7 @@
   position: relative;
   border-radius: 30px;
 }
-#blue-section {
+#skills-section {
   height: 50px;
   width: 200px;
   /* background: #7BC8EA; */
@@ -148,7 +109,7 @@
   border-radius: 30px;
 }
 
-#teal-section {
+#projects-section {
   height: 50px;
   width: 200px;
   /* background: #08707E; */
@@ -157,7 +118,7 @@
   border-radius: 30px;
 }
 
-#yellow-section {
+#contact-section {
   height: 50px;
   width: 200px;
   /* background: #F8C81E; */
