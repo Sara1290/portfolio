@@ -6,11 +6,18 @@
   color: white;
   font-family: 'Lato', sans-serif;
   width: 85vw;
-  height: 40vh;
-  border-radius: 15px;
+  height: 30vh;
+  border-radius: 10px;
   position: fixed;
   left: 7vw;
   bottom: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*container for "what i know" and the line*/
+#know-line {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,10 +29,32 @@
   width: 65vw;
   background: white;
   position: relative;
-  top: 5px;
+  /* top: 5px; */
+  bottom: 35px;
 }
 
-.skills-body p {
+.skills-body h1 {
   position: relative;
-  bottom: 40px;
+  bottom: 45px;
+}
+.exit-button {
+  border: none;
+  background: none;
+  color: white;
+  position: relative;
+  left: 41vw;
+  bottom: 30px;
+  font-size: 20px;
+}
+
+.skills-image {
+  height: 85px;
+  width: 85px;
+}
+
+.image-container {
+  width: 83vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

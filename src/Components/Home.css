@@ -84,13 +84,7 @@
   font-size: 1.4em;
   font-family: 'Lato', sans-serif;
 }
-.x-button {
-  border: none;
-  background: none;
-  position: relative;
-  right: 145px;
-  font-size: 20px;
-}
+
 /*info sections */
 #about-section {
   height: 50px;
