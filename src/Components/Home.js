@@ -33,17 +33,16 @@ const Home = () => {
 
   const closeModal = e => {
     if(modalRef.current === e.target) {
-      setShowSkillsModal(false)
       setShowAboutModal(false)
+      setShowSkillsModal(false)
       setShowProjectsModal(false)
       setShowContactModal(false)
     }
   };
-
-
+  
   return (
-    <div className='home-body' ref={modalRef} onClick={closeModal}>
-      <img src={AlbionEdited} alt="" id='background'className='home-body' ref={modalRef} onClick={closeModal}/>
+    <div className='home-body'>
+      <img src={AlbionEdited} alt="" id='background' ref={modalRef} onClick={closeModal}/>
       {/* <img src={canyonlands} alt="" id='background' className='home-body' ref={modalRef} onClick={closeModal}/> */}
       {/* <img alt="" id="face-img" src={face} /> */}
       <div className="name-title">
@@ -52,28 +51,27 @@ const Home = () => {
       </div>
       <div className="section-container">
         <section id="about-section">
-          <button className="about-button" onClick={openAboutModal}>About</button>
+          <button className="info-button" onClick={openAboutModal}>About</button>
           <AboutModal showAboutModal={showAboutModal} setShowAboutModal={setShowAboutModal} />
         </section>
 
         <section id="skills-section">
-        <button className="skills-button" onClick={openSkillsModal}>Skills</button>
+        <button className="info-button" onClick={openSkillsModal}>Skills</button>
           <SkillsModal showSkillsModal={showSkillsModal} setShowSkillsModal={setShowSkillsModal} />
         </section>
 
         <section id="projects-section">
-        <button className="projects-button" onClick={openProjectsModal}>Projects</button>
+        <button className="info-button" onClick={openProjectsModal}>Projects</button>
           <ProjectsModal showProjectsModal={showProjectsModal} setShowProjectsModal={setShowProjectsModal} />
         </section>
 
         <section id="contact-section">
-        <button className="contact-button" onClick={openContactModal}>Contact</button>
+        <button className="info-button" onClick={openContactModal}>Contact</button>
           <ContactModal showContactModal={showContactModal} setShowContactModal={setShowContactModal} />
         </section>
-          
       </div>
     </div>
-  );
-
+      );
+      
 }
 export default Home;

@@ -56,68 +56,25 @@
 }
 
 /*section buttons */
-.about-button {
+.info-button {
   /* background: #6699C8; */
-  background: white;
   border: none;
   font-size: 1.4em;
   font-family: 'Lato', sans-serif;
+  height: 50px;
+  width: 200px;
+  background: rgba(255, 255, 255, 0.486);
+  position: relative;
+  border-radius: 30px;
 }
-.skills-button {
-  /* background: #7bc8ea; */
+.info-button:hover {
   background: white;
-  border: none;
-  font-size: 1.4em;
-  font-family: 'Lato', sans-serif;
 }
-.projects-button {
-  /* background: #08707E; */
-  background: white;
-  border: none;
-  font-size: 1.4em;
-  font-family: 'Lato', sans-serif;
-}
-.contact-button {
-  /* background: #F8C81E; */
-  background: white;
-  border: none;
-  font-size: 1.4em;
-  font-family: 'Lato', sans-serif;
+.info-button:active {
+  background: rgba(255, 255, 255, 0.856);
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
 }
 
-/*info sections */
-#about-section {
-  height: 50px;
-  width: 200px;
-  /* background: #6699C8; */
-  background: white;
-  position: relative;
-  border-radius: 30px;
-}
-#skills-section {
-  height: 50px;
-  width: 200px;
-  /* background: #7BC8EA; */
-  background: white;
-  position: relative;
-  border-radius: 30px;
-}
 
-#projects-section {
-  height: 50px;
-  width: 200px;
-  /* background: #08707E; */
-  background: white;
-  position: relative;
-  border-radius: 30px;
-}
-
-#contact-section {
-  height: 50px;
-  width: 200px;
-  /* background: #F8C81E; */
-  background: white;
-  position: relative;
-  border-radius: 30px;
-}
 

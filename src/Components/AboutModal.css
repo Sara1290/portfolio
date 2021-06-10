@@ -14,9 +14,7 @@
   z-index: 1;
 };
 
-.about-line {
-  height: 5px;
-  width: 65vw;
-  background: white;
-
+.about-photo {
+  height: 200px;
+  width: 150px;
 }
