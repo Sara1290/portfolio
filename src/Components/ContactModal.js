@@ -19,7 +19,7 @@ const ContactModal = ({showContactModal, setShowContactModal}) => {
     <div>
       {showContactModal 
       ? (<div className='contact-body'>
-        <button aria-label="CloseModal" className="x-button" onClick={() => setShowContactModal(prev => !prev)}>X</button>
+        <button aria-label="CloseModal" className="exit-button" onClick={() => setShowContactModal(prev => !prev)}>X</button>
           <p>email, git hub, linkedIn, phone number, downloadabel resume  
           </p>
         </div>)

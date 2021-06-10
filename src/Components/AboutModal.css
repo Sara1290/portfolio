@@ -2,19 +2,21 @@
 
 
 .about-body {
-  background: #6699c8fb;
+  background: rgba(27, 132, 173, 0.966);
   color: white;
   font-family: 'Lato', sans-serif;
   width: 85vw;
-  /* height: 20vh; */
   border-radius: 10px;
   position: fixed;
-  right: 7vw;
+  left: 7vw;
   bottom: 40vh;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+
 };
 
-.about-photo {
-  height: 200px;
-  width: 150px;
-}
+#couple-img {
+  height: 80px;
+  width: 65px;
+};
