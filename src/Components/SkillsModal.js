@@ -33,15 +33,15 @@ const SkillsModal = ({showSkillsModal, setShowSkillsModal}) => {
             <section id="line-one"></section>
           </div>
           <div className="image-container">
-            <img className="skills-image" src={html5}/>
-            <img className="skills-image" src={cssThree}/>
-            <img className="skills-image" src={JavaScript}/>
-            <img className="skills-image" src={newReact}/>
-            <img className="skills-image" src={reactRedux}/>
-            <img className="skills-image" src={nodejs}/>
-            <img className="skills-image" src={postgresql}/>
-            <img className="skills-image" src={SassLogo}/>
-            <img className="skills-image" src={api}/>
+            <img className="skills-image" alt="HTML5" src={html5}/>
+            <img className="skills-image" alt="CSS3" src={cssThree}/>
+            <img className="skills-image" alt="JavaScript" src={JavaScript}/>
+            <img className="skills-image" alt="React" src={newReact}/>
+            <img className="skills-image" alt="React with Redux" src={reactRedux}/>
+            <img className="skills-image" alt="NodeJs" src={nodejs}/>
+            <img className="skills-image" alt="PostgreSQL" src={postgresql}/>
+            <img className="skills-image" alt="SASS" src={SassLogo}/>
+            <img className="skills-image" alt="Calls to API's" src={api}/>
           </div>
 
 

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import face from '../assets/face.png';
+// import face from '../assets/face.png';
 import AboutModal from './AboutModal';
 import SkillsModal from './SkillsModal'
 import ProjectsModal from './ProjectsModal';
@@ -45,7 +45,7 @@ const Home = () => {
     <div className='home-body' ref={modalRef} onClick={closeModal}>
       <img src={AlbionEdited} alt="" id='background'className='home-body' ref={modalRef} onClick={closeModal}/>
       {/* <img src={canyonlands} alt="" id='background' className='home-body' ref={modalRef} onClick={closeModal}/> */}
-      <img alt="" id="face-img" src={face} />
+      {/* <img alt="" id="face-img" src={face} /> */}
       <div className="name-title">
         <h1> Sara Reed </h1>
         <p> Full Stack Web Developer</p>
