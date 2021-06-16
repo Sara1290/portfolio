@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
+import {HashRouter} from 'react-router-dom';
 import Home from './Components/Home';
+import './index.css';
+
+const Router = HashRouter
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <Router >
+      <Home />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -12,3 +12,35 @@
   left: 7vw;
   bottom: 40vh;
 }
+.link-container {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 15px;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+}
+.Link:hover{
+  color: black;
+  text-transform: uppercase;
+}
+
+.modal-header {
+  font-size: 30px;
+  position: relative;
+  bottom: 15px;
+}
+
+.projects-line {
+  height: 2px;
+  width: 65vw;
+  background: white;
+  position: relative;
+
+}

@@ -1,4 +1,5 @@
 import React, {useCallback, useEffect} from 'react';
+import { Link } from 'react-router-dom'
 import './ProjectsModal.css'
 
 const ProjectsModal = ({showProjectsModal, setShowProjectsModal}) => {
@@ -19,10 +20,19 @@ const ProjectsModal = ({showProjectsModal, setShowProjectsModal}) => {
     <div>
       {showProjectsModal 
       ? (<div className='projects-body'>
-        <button aria-label="CloseModal" className="exit-button" onClick={() => setShowProjectsModal(prev => !prev)}>X</button>
-          <h1>What I've been up to</h1>
-          <p>links here to projects  
-          </p>
+          <button aria-label="CloseModal" className="exit-button" onClick={() => setShowProjectsModal(prev => !prev)}>X</button>
+        <div className="header-container">
+          <h1 className="modal-header">Projects</h1>
+          <section className="projects-line"></section>
+        </div>
+        <div className="link-container">
+              <Link to ={{pathname: "https://beentheretravel.net/#/"}} className="Link" target="https://beentheretravel.net/#/">
+                Been There Travel
+              </Link>
+              <Link to ={{pathname: "http://143.198.236.55:4242/"}} className="Link" target="blank">
+                Plant Planet
+              </Link>
+            </div>
         </div>)
     : null}
     </div>

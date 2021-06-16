@@ -17,15 +17,15 @@
   align-items: center;
 }
 /*container for "what i know" and the line*/
-#know-line {
+.header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 /*the actual line*/
-#line-one {
-  height: 1px;
+.modal-line {
+  height: 2px;
   width: 65vw;
   background: white;
   position: relative;

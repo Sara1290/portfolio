@@ -22,7 +22,7 @@ const AboutModal = ({showAboutModal, setShowAboutModal}) => {
       ? (<div className='about-body'>
         {/* <img alt="" src={a1} id="couple-img"/> */}
         <button aria-label="CloseModal" className="exit-button" onClick={() => setShowAboutModal(prev => !prev)}>X</button>
-          <h1>A bit about me!</h1>
+          <h1 className="modal-header">A bit about me!</h1>
           <br/>
           <p>I love camping, hiking, playing piano, baking, wreath making, and
             any sort of arts and crafts. 
