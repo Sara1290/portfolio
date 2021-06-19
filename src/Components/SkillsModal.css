@@ -10,23 +10,25 @@
   border-radius: 10px;
   position: fixed;
   left: 7vw;
-  bottom: 40vh;
+  bottom: 35vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
-/*container for "what i know" and the line*/
+/*container for h1's and the line underneath*/
 .header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50px;
 }
 /*the actual line*/
-.modal-line {
+.skills-line {
   height: 2px;
-  width: 65vw;
+  width: 80vw;
   background: white;
   position: relative;
   /* top: 5px; */
@@ -37,16 +39,18 @@
   position: relative;
   bottom: 45px;
 }
-.exit-button {
+.skills-exit {
   border: none;
   background: none;
   color: white;
   position: relative;
-  left: 41vw;
-  bottom: 30px;
-  font-size: 20px;
+  right: 41vw;
+  bottom: 12px;
+  font-size: 15px;
 }
-
+.skills-exit:hover {
+  color: black;
+}
 .skills-image {
   height: 85px;
   width: 85px;
@@ -57,4 +61,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }

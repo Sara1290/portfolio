@@ -5,11 +5,11 @@
   background: rgba(27, 132, 173, 0.966);
   color: white;
   font-family: 'Lato', sans-serif;
-  width: 85vw;
-  height: 20vh;
+  width: 25vw;
+  height: 25vh;
   border-radius: 15px;
   position: fixed;
-  left: 7vw;
+  right: 38vw;
   bottom: 40vh;
 }
 .link-container {
@@ -38,9 +38,20 @@
 }
 
 .projects-line {
-  height: 2px;
-  width: 65vw;
+  height: 2.5px;
+  width: 20vw;
   background: white;
   position: relative;
+}
 
+.proj-exit {
+  border: none;
+  background: none;
+  color: white;
+  position: relative;
+  right: 175px;
+  font-size: 15px;
+}
+.proj-exit:hover {
+  color: black;
 }

@@ -27,10 +27,10 @@ const SkillsModal = ({showSkillsModal, setShowSkillsModal}) => {
     <div>
       {showSkillsModal 
       ? (<div className='skills-body'>
-            <button aria-label="CloseModal" className="exit-button" onClick={() => setShowSkillsModal(prev => !prev)}>X</button>
+            <button aria-label="CloseModal" className="skills-exit" onClick={() => setShowSkillsModal(prev => !prev)}>X</button>
           <div className="header-container">
-            <h1 className="modal-header">What I know</h1>
-            <section className="modal-line"></section>
+            <h1 className="modal-header">What I Know</h1>
+            <section className="skills-line"></section>
           </div>
           <div className="image-container">
             <img className="skills-image" alt="HTML5" src={html5}/>

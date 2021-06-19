@@ -5,11 +5,60 @@
   background: rgba(27, 132, 173, 0.966);
   color: white;
   font-family: 'Lato', sans-serif;
-  width: 85vw;
-  height: 20vh;
+  width: 25vw;
+  height: 25vh;
   border-radius: 15px;
   position: fixed;
-  right: 7vw;
+  right: 38vw;
   bottom: 40vh;
+}
+.contact-line {
+  height: 2.5px;
+  width: 20vw;
+  background: white;
+  position: relative;
+}
 
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 35px;
+}
+.contact-image {
+  height: 65px;
+  width: 65px;
+  position: relative;
+  /* bottom: 10px; */
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: black;
+}
+#span {
+  position: relative;
+  right: 58px;
+  top: 15px;
+}
+
+.contact-exit {
+  border: none;
+  background: none;
+  color: white;
+  position: relative;
+  right: 175px;
+  font-size: 15px;
+}
+.contact-exit:hover {
+  color:black;
 }

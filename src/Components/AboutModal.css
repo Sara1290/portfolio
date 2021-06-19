@@ -5,18 +5,38 @@
   background: rgba(27, 132, 173, 0.966);
   color: white;
   font-family: 'Lato', sans-serif;
-  width: 85vw;
-  border-radius: 10px;
+  width: 25vw;
+  height: 50vh;
+  border-radius: 15px;
   position: fixed;
-  left: 7vw;
-  bottom: 40vh;
+  right: 38vw;
+  bottom: 20vh;
   z-index: 1;
   display: flex;
   flex-direction: column;
-
 };
 
 #couple-img {
   height: 80px;
   width: 65px;
 };
+
+.about-line {
+  height: 2px;
+  width: 65vw;
+  background: white;
+  position: relative;
+  top: 5px;
+}
+/* ext-button className exists for all modals EXCEPT Skills. */
+.ext-button {
+  border: none;
+  background: none;
+  color: white;
+  position: relative;
+  right: 175px;
+  font-size: 15px;
+}
+.ext-button:hover {
+  color: black;
+}

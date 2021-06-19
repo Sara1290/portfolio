@@ -21,9 +21,12 @@ const AboutModal = ({showAboutModal, setShowAboutModal}) => {
       {showAboutModal 
       ? (<div className='about-body'>
         {/* <img alt="" src={a1} id="couple-img"/> */}
-        <button aria-label="CloseModal" className="exit-button" onClick={() => setShowAboutModal(prev => !prev)}>X</button>
-          <h1 className="modal-header">A bit about me!</h1>
-          <br/>
+        <button aria-label="CloseModal" className="ext-button" onClick={() => setShowAboutModal(prev => !prev)}>X</button>
+        <div className="header-container">
+            <h1 className="modal-header">A Bit About Me</h1>
+            <section className="about-line"></section>
+          </div>
+          <div className="paragraph-container">
           <p>I love camping, hiking, playing piano, baking, wreath making, and
             any sort of arts and crafts. 
             <br/>
@@ -40,6 +43,7 @@ const AboutModal = ({showAboutModal, setShowAboutModal}) => {
             <br/>
             <br/>
           </p>
+          </div>
         </div>)
     : null}
     </div>
