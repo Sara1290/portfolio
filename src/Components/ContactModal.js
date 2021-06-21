@@ -2,7 +2,7 @@ import React, {useCallback, useEffect} from 'react';
 import {ExternalLink} from 'react-external-link'
 import github4 from '../assets/github4.png'
 import linkedIn3 from '../assets/linkedIn3.png'
-// import { DownloadLink } from 'react-download-link';
+import ResumeThumbnail from '../assets/ResumeThumbnail.png'
 import './ContactModal.css'
 
 const ContactModal = ({showContactModal, setShowContactModal}) => {
@@ -40,11 +40,10 @@ const ContactModal = ({showContactModal, setShowContactModal}) => {
                   <img alt="" src={linkedIn3} className="contact-image" />
                     <span id="span">LinkedIn</span>
                   </ExternalLink>
-                  {/* <DownloadLink
-                      label="Save"
-                      filename="SaraReedResume.pdg"
-                      exportFile={() => "My cached data"}
-                  /> */}
+              </div>
+              <div className="social-container">
+                  <img className="resume-image" src={ResumeThumbnail} alt=""/>
+                  <a className="link" id="span" href="https://docs.google.com/document/d/1omw5ZhBYQbR2Spfu7EWRynJSSr0uOECw7i509yhTwn4/export?format=pdf">Download My Resume</a>
               </div>
           </div>
         </div>)
